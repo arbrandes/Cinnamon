@@ -259,7 +259,6 @@ MyApplet.prototype = {
         }));
         this._readPrimaryDevice();
         this._readOtherDevices();
-        this._updateLabel();
     },
     
     _updateLabel: function() {
